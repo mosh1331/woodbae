@@ -21,8 +21,12 @@ module.exports = {
         'secondary-text': '#000', // Replace with your desired secondary text color
       },
       fontSize:{
-        "text-title":"52px"
+        'title':'52px',
+        'title-sm': '48px', // Small screens
+        'title-md': '52px', // Medium screens
+        'title-lg': '56px',
       }
+      
     },
   },
   plugins: [],

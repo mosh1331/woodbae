@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.carousel.carousel-slider{
+  height: 60vh !important;
+}

@@ -11,7 +11,7 @@ const Section1 = () => {
             </div>
             <div   className="w-1/2 relative">
                 <div style={{zIndex:10}}  className="w-[90%] ">
-                    <iframe className='w-full h-[350px] z-2' src="https://www.youtube.com/embed/OcAc32a00ig?si=MCAZVKfueL97iMtu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe className='w-full h-[350px] z-2' src="https://www.youtube.com/embed/4ozNovnlEvE?si=8Djfrts9rc6r45y7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             {/* <div  style={{zIndex:0}} className="w-1/2 h-[200px]  bg-[red] absolute top-[-20px] right-[-20px]"></div> */}
 

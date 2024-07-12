@@ -19,21 +19,6 @@ const Hero = () => {
   }, []);
 
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const heroSection = document.getElementById('hero');
-      const nextSection = document.getElementById('section1');
-      
-      if (window.scrollY > heroSection.clientHeight - 50) {
-        nextSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
 
   return (
