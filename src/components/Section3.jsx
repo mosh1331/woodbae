@@ -2,7 +2,9 @@ import React from 'react'
 
 const Section3 = () => {
     return (
-        <div className='bg-white p-24 flex items-center' id="section1">
+        <div className='bg-white p-24 relative flex items-center' id="section1">
+                    <div className="absolute inset-0 bg-contain bg-center bg-no-repeat" style={{ backgroundImage: `url(/bg3.png)`, opacity: '0.2' }}></div>
+
             <div className="w-1/2">
                 <h2 className=" text-primary-text text-title mb-8">Woodbae Interiors Crafting Your homes</h2>
                 <p className="text-sm text-black w-1/2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla error nesciunt,
